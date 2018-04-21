@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.block {
+    font-family: 'Gamja Flower', cursive, sans-serif;
+    font-size: 1.25rem;
+    text-align: left;
+    display: inline-block;
+    width: 800px;
+    max-width: 100%;
+    margin: 3rem 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    background: #edd;
+}
+
+input, button {
+    font-family: 'Gamja Flower', cursive, sans-serif;
+    font-size: 1.25rem;
+    padding: 5px 10px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}

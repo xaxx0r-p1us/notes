@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>xaxx0r's control panel</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="wrap">
+        <div class="block">
+            <h1>Your notes</h1>
+            {% for note in notes %}
+                <hr/>
+                <p>{{ note|safe }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="block">
+            <p>xaxx0r control panel. Authorized access only</p>
+        </div>
+    </div>
+</body>
+</html>
